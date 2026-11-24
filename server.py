@@ -12,7 +12,7 @@ try:
 #listening 
     Server_socket.bind((Host, Port))
     Server_socket.listen()
-    print(f"Server {Server_name} is listening on {Host}:{Port}")
+    print(f"{Server_name} is listening on {Host}:{Port}")
 
 #Accepting the connection from the client :
     while True:
